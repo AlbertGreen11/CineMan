@@ -1,0 +1,77 @@
+.menu-container {
+  padding: 20px;
+}
+
+.menu-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+.user-email {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgb(80, 197, 3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.animated-options > * {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-options > *:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-options-line {
+  width: 70vw;
+  border: none;
+  border-top: 2px solid #ec8e00;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

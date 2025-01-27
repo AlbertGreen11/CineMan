@@ -1,0 +1,14 @@
+html {
+  overflow-y: scroll;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.app-title {
+  font-size: 24px;
+  color: #4CAF50;
+}

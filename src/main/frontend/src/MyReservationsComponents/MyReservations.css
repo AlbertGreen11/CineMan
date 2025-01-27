@@ -1,0 +1,84 @@
+body {
+    display: flex;
+}
+
+h2 {
+    color: #ec8e00;
+}
+
+.reservations-container {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.error-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reservations-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reservation-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #222;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: default;
+    position: relative;
+}
+
+.reservation-poster {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.reservation-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.reservation-details p {
+    margin: 5px 0;
+}
+
+.reservation-details strong {
+    font-weight: bold;
+    color: #ec8e00;
+}
+
+.cancel-reservation-button {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ec8e00;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-reservation-button:hover {
+    background-color: #d67800;
+}
+
+.cancel-reservation:active {
+    background-color: #b86700;
+}
